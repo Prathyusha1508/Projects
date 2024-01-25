@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Web Player: Music for everyone</title>
+    <link rel="shortcut icon" href = "https://img.icons8.com/?size=48&id=63316&format=png" type="image/x-icon">
+    <link rel="stylesheet" href="music.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <h2>sign up</h2>
+        <button>Log in</button>
+      
+    </nav>
+    <div class="main">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="https://cdn.icon-icons.com/icons2/836/PNG/96/Spotify_icon-icons.com_66783.png" alt="" srcset="">
+                <br>
+                
+                <h2 >spotify</h2>
+            </div>
+            <br>
+            <h4><i style="font-size:24px;color:aliceblue"  class="fa">&#xf015;</i> Home</h4>
+            <h4><i style="font-size:24px" class="fa">&#xf002</i> search</h4>
+            <h4><i style="font-size:24px" class='fa'>&#xf02e</i> Your Library</h4>
+            <br>
+            <h4>create playlist</h4>
+            <!-- <h5>It's easy,we'll help you</h5>
+            <button style="color: aliceblue">Createplaylist</button> -->
+            <h4>Liked songs</h4>
+        </div>
+    
+    <div class = "crd">
+    <div class="card" style="width: 18rem;">
+        <img src="https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO2GbnbB-default.jpg" width="200px" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="color:antiquewhite">Anirudh's Top Hits</h5>
+          <p class="card-text" style="color:aliceblue">Once A Addicted Always A Addicted</p>
+         <button class="btn">click here</button>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe2xdadSXQ84ur0WfbnUP4TjuHYPP0ve4EYA&usqp=CAU" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"style="color:antiquewhite" >Best of Sid Sriram</h5>
+          <p class="card-text" style="color:aliceblue">Heart rendering songs by Sid Sriram</p>
+          <button class="btn">click here</button>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCs0v3c_o_Ev2YCsJ5SvIufWmHVgFNk3qSMA&usqp=CAU" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="color:antiquewhite">Best Telugu songs of ARR!</h5>
+          <p class="card-text" style="color:aliceblue">By Musical maestro A R.Rahman</p>
+          <button class="btn">click here</button>
+        </div>
+
+       
+      </div>
+    </div>
+    </div>
+    <footer>
+      <div class = "bottom">
+      <div class = "foot">
+        <h5>company</h5>
+        <p>About</p>
+        <p>Jobs</p>
+        <p>For the record</p>
+      </div>
+      <div class = "foot1">
+        <h5>communities</h5>
+        <p>For Artists</p>
+         <p> Developers</p>
+         <p>Advertising</p>
+         <p>Investors</p>
+          <p>Vendors</p>
+      </div>
+      <div class = "foot2">
+        <h5>Useful links</h5>
+        <p>Support</p>
+        <p>Free Mobile App</p>
+      </div>
+      <div class = "icon">
+      <i style="font-size:30px;color:aliceblue"class="fa">&#xf16d;</i>
+      <i style="font-size:24px;margin-left: 30px;color:aliceblue" class="fa">&#xf099;</i>
+      <i style="font-size:24px;margin-left: 30px;color:aliceblue" class="fa">&#xf09a;</i>
+      </div>
+    
+      </div>
+      <h6 class = "copy">&copy;2024 spotify AB</h6>
+      
+
+    </footer>
+    <script>
+     
+    
+      let bt = document.querySelectorAll(".btn");
+        bt[0].addEventListener("click",()=>{
+        let b = confirm("do you want to visit this page?");
+        if(b){
+            // window.location.assign("./lofi.html");
+            // window.open("./lofi.html","_self")
+            window.location.href="lofi.html";
+            localStorage.setItem("see","event");
+        } 
+       
+        })
+        let but = document.querySelectorAll(".btn");
+        but[1].addEventListener("click",()=>{
+        let a = confirm("do you want to visit this page?");
+        if(a){
+            window.location.href="lofi.html";
+            localStorage.setItem("see","event");
+        } 
+       
+        })
+        let btn = document.querySelectorAll(".btn");
+        btn[2].addEventListener("click",()=>{
+        let c = confirm("do you want to visit this page?");
+        if(c){
+      
+            window.location.href="lofi.html";
+            localStorage.setItem("see","event");
+        } 
+       
+        })
+      
+      
+
+        
+     
+     
+      
+
+    </script>
+
+    
+</body>
+</html>*

@@ -1,0 +1,81 @@
+*{
+    
+    background-color: black;
+}
+nav{
+    display:flex;
+    justify-content: right;
+    margin-top: 15px;
+    
+
+    
+}
+nav button{
+    width:100px;
+    height:42px;
+    background-color: white;
+    color:black;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 22px;
+}
+nav h2{
+    margin-top: 9px;
+    font-size: 17px;
+    margin-right: 15px;
+    color:white;
+}
+.crd{
+    display:flex;
+    padding:10px; 
+    box-shadow:10px 10px 10px black;
+
+}
+.main{
+    display:flex;
+   
+}
+.main .sidebar{
+    background-color: black;
+    color:white;
+    padding:22px;
+
+}
+.crd .card{
+    margin:30px;
+    border-radius: 3px;
+    box-shadow:10px 10px 10px black;
+    border:none;
+    margin-left: 55px;
+}
+.foot{
+    margin-left: 280px;
+    color:aliceblue;
+}
+.bottom {
+    display:flex;
+    
+}
+.foot1{
+    margin-left: 190px;
+    color:aliceblue;
+}
+.foot2{
+    margin-left: 200px;
+    color:aliceblue;
+}
+.copy{
+    color:aliceblue;
+    margin-left: 230px;
+}
+.icon{
+    margin-left: 300px;
+}
+.crd button{
+    color:white;
+    background-color: blue;
+    border-radius: 10px;
+    margin-left: 80px;
+    padding:10px 10px 10px;
+
+}
